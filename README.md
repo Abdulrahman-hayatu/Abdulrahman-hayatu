@@ -43,13 +43,15 @@ Production RAG system for natural language Q&A over SEC 10-K filings. LangChain 
 
 ---
 
-### 📉 [Customer Churn Prediction API](https://github.com/Abdulrahman-Hayatu/customer-churn-prediction)
+### 📉 [Customer Churn Prediction API](https://github.com/Abdulrahman-Hayatu/
+telco-churn-api)
 End-to-end churn prediction pipeline on IBM Telco dataset. XGBoost with SMOTE for class imbalance, wrapped in a FastAPI app with single & batch prediction endpoints, Pydantic v2 validation, and risk tier labeling. Deployed on Render.
 `XGBoost` `SMOTE` `FastAPI` `Pydantic` `Render` `Scikit-learn`
 
 ---
 
-### 🔍 [Fraud Detection Model](https://github.com/Abdulrahman-Hayatu)
+### 🔍 [Fraud Detection Model](https://github.com/Abdulrahman-Hayatu/
+Fraud-Detection-API)
 XGBoost-based fraud detection classifier with feature engineering and class imbalance handling.
 `XGBoost` `Pandas` `Scikit-learn`
 
@@ -57,7 +59,7 @@ XGBoost-based fraud detection classifier with feature engineering and class imba
 
 ## 💼 Currently
 
-- 🏢 **Junior ML Engineer** @ Ihifix Technologies, Kaduna — building & deploying ML systems for a school management platform
+- 🏢 **ML Engineer** @ Ihifix Technologies, Kaduna — building & deploying ML systems for a school management platform
 - 📚 **Associate Data Scientist** certification in progress — DataCamp
 - 🔍 **Open to** Data Scientist & ML Engineer roles (remote or Nigeria-based)
 
