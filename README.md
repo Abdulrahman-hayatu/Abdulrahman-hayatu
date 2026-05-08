@@ -60,7 +60,7 @@ XGBoost-based fraud detection classifier with feature engineering and class imba
 ## 💼 Currently
 
 - 🏢 **ML Engineer** @ Ihifix Technologies, Kaduna — building & deploying ML systems for a school management platform
-- 📚 **Associate Data Scientist** certification in progress — DataCamp
+- 📚 **Associate Data Scientist** DataCamp (May 2026)
 - 🔍 **Open to** Data Scientist & ML Engineer roles (remote or Nigeria-based)
 
 ---
