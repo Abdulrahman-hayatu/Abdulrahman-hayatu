@@ -1,6 +1,6 @@
 # Hi, I'm Abdulrahman Hayatu Usman 👋
 
-**ML Engineer & Data Scientist** focused on building end-to-end AI systems from training to production deployment.
+**AI/ML Engineer & Data Scientist** focused on building end-to-end AI systems from training to production deployment.
 
 I work at the intersection of machine learning, building AI Agents, NLP, and API engineering. My focus is on building practical, deployable solutions not just models that live in notebooks.
 
