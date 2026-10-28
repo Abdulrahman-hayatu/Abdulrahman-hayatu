@@ -48,23 +48,21 @@ Production RAG system for natural language Q&A over SEC 10-K filings. LangChain 
 
 ---
 ### 🇳🇬 [Compliance Agent](https://github.com/Abdulrahman-Hayatu/compliance-agent)
-A 4-agent LangGraph compliance system (Retriever → Analyzer → Validator → Reporter) using FAISS RAG over CBN and NDPC regulatory documents.
-`Groq LLaMA-3.3-70b` `LangGraph` `Huggingface Spaces` `Gradio UI`.
+A 4-agent LangGraph compliance system (Parser → Retriever → Compliance Checker → Reporter) using FAISS RAG over the CBN Agent Banking Guidelines and the NDPA 2023. Scored on a 60-item golden dataset: **91.7% verdict accuracy**, 0.918 macro-F1.
+`Groq gpt-oss-120b` `LangGraph` `FAISS` `Huggingface Spaces` `Gradio UI`.
 [🔗 Live Demo](https://huggingface.co/spaces/Abdulrahman-Hayatu/Nigerian-fintech-compliance-agent)
 
 ---
 
-### 📉 [Customer Churn Prediction API](https://github.com/Abdulrahman-Hayatu/
-telco-churn-api)
-End-to-end churn prediction pipeline on IBM Telco dataset. XGBoost with SMOTE for class imbalance, wrapped in a FastAPI app with single & batch prediction endpoints, Pydantic v2 validation, and risk tier labeling. Deployed on Render.
-`XGBoost` `SMOTE` `FastAPI` `Pydantic` `Render` `Scikit-learn`
+### 📉 [Customer Churn Prediction API](https://github.com/Abdulrahman-Hayatu/telco-churn-api)
+End-to-end churn prediction pipeline on IBM Telco dataset. Random Forest with SMOTE for class imbalance and an F1-optimised threshold (ROC-AUC 0.818), wrapped in a FastAPI app with single & batch prediction endpoints, Pydantic v2 validation, and risk tier labeling. Deployed on Render.
+`Random Forest` `SMOTE` `FastAPI` `Pydantic` `Render` `Scikit-learn`
 
 ---
 
-### 🔍 [Fraud Detection Model](https://github.com/Abdulrahman-Hayatu/
-Fraud-Detection-API)
-XGBoost-based fraud detection classifier with feature engineering and class imbalance handling.
-`XGBoost` `Pandas` `Scikit-learn`
+### 🔍 [Fraud Detection API with MLOps](https://github.com/Abdulrahman-Hayatu/Fraud-Detection-API)
+XGBoost fraud scoring service (IEEE-CIS, ROC-AUC 0.864) wrapped in a full MLOps loop: Evidently drift and decay checks, MLflow tracking on DagsHub, DVC with an S3 remote, Prefect orchestration, a champion-vs-challenger promotion gate, and a weekly GitHub Actions retrain.
+`XGBoost` `FastAPI` `MLflow` `DVC` `Prefect` `Evidently` `GitHub Actions`
 
 ---
 
